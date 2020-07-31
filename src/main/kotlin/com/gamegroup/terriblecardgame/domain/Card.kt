@@ -1,4 +1,4 @@
-package org.example.domain
+package com.gamegroup.terriblecardgame.domain
 
 interface Card {
     fun name(): String

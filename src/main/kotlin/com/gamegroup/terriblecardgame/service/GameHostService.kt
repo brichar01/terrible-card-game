@@ -1,7 +1,7 @@
-package org.example.service
+package com.gamegroup.terriblecardgame.service
 
-import org.example.domain.factory.PlayerFactory
-import org.example.domain.factory.DeckFactory
+import com.gamegroup.terriblecardgame.domain.factory.PlayerFactory
+import com.gamegroup.terriblecardgame.domain.factory.DeckFactory
 
 class GameHostService {
     private val decks =  (1..2).map { DeckFactory().getStandardDeck() }

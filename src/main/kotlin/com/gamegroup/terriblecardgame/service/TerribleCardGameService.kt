@@ -1,16 +1,14 @@
-package org.example.service
+package com.gamegroup.terriblecardgame.service
 
-import org.example.domain.Player
-import org.example.domain.State
+import com.gamegroup.terriblecardgame.domain.Player
+import com.gamegroup.terriblecardgame.domain.State
 
 class TerribleCardGameService(private val players: List<Player>) {
-    private val gameState: State =
+    private val gameState: State = State(true)
 
     fun play() {
-
         players.map { player ->
             player.shuffleDeck().drawCards(5)
         }
-
     }
 }

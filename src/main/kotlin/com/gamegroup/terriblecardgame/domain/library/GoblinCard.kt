@@ -1,5 +1,6 @@
-package org.example.domain.library
+package com.gamegroup.terriblecardgame.domain.library
 
+import com.gamegroup.terriblecardgame.domain.*
 import org.example.domain.*
 
 class GoblinCard(

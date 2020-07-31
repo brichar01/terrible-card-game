@@ -1,6 +1,6 @@
-package org.example.domain
+package com.gamegroup.terriblecardgame.domain
 
-import org.example.domain.library.GoblinCard
+import com.gamegroup.terriblecardgame.domain.library.GoblinCard
 
 data class CardLibrary(
     val cardsByName: Map<String, Card>

@@ -1,8 +1,8 @@
-package org.example.domain.factory
+package com.gamegroup.terriblecardgame.domain.factory
 
-import org.example.domain.Card
-import org.example.domain.CardLibrary
-import org.example.domain.library.GoblinCard
+import com.gamegroup.terriblecardgame.domain.Card
+import com.gamegroup.terriblecardgame.domain.CardLibrary
+import com.gamegroup.terriblecardgame.domain.library.GoblinCard
 
 class CardFactory {
     private val cardLibrary = CardLibrary.getAllCards()

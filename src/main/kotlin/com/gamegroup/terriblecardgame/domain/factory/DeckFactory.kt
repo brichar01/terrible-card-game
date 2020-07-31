@@ -1,6 +1,6 @@
-package org.example.domain.factory
+package com.gamegroup.terriblecardgame.domain.factory
 
-import org.example.domain.Deck
+import com.gamegroup.terriblecardgame.domain.Deck
 
 class DeckFactory {
     private val standardDeckList = (1..10).map {

@@ -1,6 +1,6 @@
-package org.example
+package com.gamegroup.terriblecardgame
 
-import org.example.service.GameHostService
+import com.gamegroup.terriblecardgame.service.GameHostService
 
 fun main(args: Array<String>) {
     val gameHostService = GameHostService()

@@ -1,17 +1,17 @@
-package org.example.domain
+package com.gamegroup.terriblecardgame.domain
 
 class Player constructor(
-    private val hand: Deck,
-    private val deck: Deck,
-    private val graveyard: Deck,
-    private val field: Field
+        private val hand: Deck,
+        private val deck: Deck,
+        private val graveyard: Deck,
+        private val field: Field
 ) {
     constructor(
-        player: Player,
-        newHand: Deck? = null,
-        newDeck: Deck? = null,
-        newGraveyard: Deck? = null,
-        newField: Field? = null
+            player: Player,
+            newHand: Deck? = null,
+            newDeck: Deck? = null,
+            newGraveyard: Deck? = null,
+            newField: Field? = null
     ) {
         val hand = newHand ?: player.hand
         val deck = newDeck ?: player.deck

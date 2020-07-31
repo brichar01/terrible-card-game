@@ -1,8 +1,8 @@
-package org.example.domain.factory
+package com.gamegroup.terriblecardgame.domain.factory
 
-import org.example.domain.Deck
-import org.example.domain.Field
-import org.example.domain.Player
+import com.gamegroup.terriblecardgame.domain.Deck
+import com.gamegroup.terriblecardgame.domain.Field
+import com.gamegroup.terriblecardgame.domain.Player
 
 class PlayerFactory {
     fun getPlayer(deck: Deck = Deck()): Player {
